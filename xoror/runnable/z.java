@@ -1,0 +1,1 @@
+class z{public static void main(String[] s){int L=s[0].length();for(int G=Integer.valueOf(s[1]);G-->0;){s[1]="";for(int N=0;N<L;N++){char C=(char)((N>0?s[0].charAt(N-1):' ')^(s[0].charAt(N))|(N<L-1?s[0].charAt(N+1):' '));s[1]+=C>126?' ':C;}System.out.println(s[1]);s[0] =s[1];}}}
